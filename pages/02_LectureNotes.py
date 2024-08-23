@@ -4,7 +4,7 @@ import os
 st.title("💕 강의자료 👩‍🦰")
 
 # PDF 파일 경로, 현재 스크립트 위치 기준
-pdf_file_path_lecture = os.path.join(os.path.dirname(__file__), "day1.pdf")
+pdf_file_path_lecture = os.path.join(os.path.dirname(__file__), "day2.pdf")
 pdf_file_path_homework = os.path.join(os.path.dirname(__file__), "day2_blank.pdf")
 
 # 강의자료 파일 존재 여부 확인
