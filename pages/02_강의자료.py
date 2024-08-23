@@ -12,7 +12,7 @@ if os.path.exists(pdf_file_path_lecture):
     # 강의자료 PDF 파일 다운로드 버튼
     with open(pdf_file_path_lecture, "rb") as file:
         btn_lecture = st.download_button(
-            label="240823 Lecture note Download",
+            label="240823 수업PPT Download",
             data=file,
             file_name="day2.pdf",
             mime="application/pdf"
