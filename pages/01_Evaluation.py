@@ -3,7 +3,7 @@ from PIL import Image
 import os
 
 # 이미지 파일 경로 설정
-image_path = "./평가기준.png"
+image_path = "./001.png"
 
 # 파일 존재 여부 확인
 if os.path.exists(image_path):
