@@ -2,6 +2,9 @@ import streamlit as st
 from PIL import Image
 import os
 
+st.title("💕 평가기준 👩‍🦰")
+st.write("세부적인 사항은 수업시간에 다시 공지할 예정입니다.")
+
 # 현재 스크립트 위치 기준으로 이미지 경로 설정
 image_path = os.path.join(os.path.dirname(__file__), "001.png")
 
