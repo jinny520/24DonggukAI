@@ -9,7 +9,7 @@ st.write("🔥 준비된 강의가 여러분을 기다리고 있어요! 🚀 ")
 st.title("PDF 파일 다운로드 예제")
 
 # PDF 파일 경로
-pdf_file_path = "day1.pdf"
+pdf_file_path = "./day1.pdf"
 
 # PDF 파일 다운로드 버튼
 with open(pdf_file_path, "rb") as file:
