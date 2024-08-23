@@ -1,9 +1,13 @@
 import streamlit as st
 from PIL import Image
+import os
 
-# 웹 페이지 제목
-st.title("평가기준")
+# 이미지 파일 경로 설정
+image_path = "./평가기준.png"
 
-# 이미지 표시
-image = Image.open("./평가기준.png")
-st.image(image, caption='평가기준', use_column_width=True) 
+# 파일 존재 여부 확인
+if os.path.exists(image_path):
+    image = Image.open(image_path)
+    st.image(image, caption='평가기준', use_column_width=True)
+else:
+    st.error("이미지 파일을 찾을 수 없습니다. 경로를 확인하세요.")
