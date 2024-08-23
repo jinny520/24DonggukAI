@@ -12,7 +12,7 @@ if os.path.exists(pdf_file_path):
     # PDF 파일 다운로드 버튼
     with open(pdf_file_path, "rb") as file:
         btn = st.download_button(
-            label="day1.pdf 다운로드",
+            label="Download",
             data=file,
             file_name="day1.pdf",
             mime="application/pdf"
