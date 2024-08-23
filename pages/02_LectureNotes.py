@@ -4,8 +4,8 @@ import os
 st.title("💕 강의자료 👩‍🦰")
   
 
-# PDF 파일 경로
-pdf_file_path = "./day1.pdf"
+# PDF 파일 경로, 현재 스크립트 위치 기준 
+image_path = os.path.join(os.path.dirname(__file__), "day1.pdf")
 
 # 파일 존재 여부 확인
 if os.path.exists(pdf_file_path):
