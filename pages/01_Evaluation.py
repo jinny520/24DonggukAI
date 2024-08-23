@@ -5,5 +5,5 @@ from PIL import Image
 st.title("평가기준")
 
 # 이미지 표시
-image = Image.open("평가기준.png")
+image = Image.open("./평가기준.png")
 st.image(image, caption='평가기준', use_column_width=True) 
